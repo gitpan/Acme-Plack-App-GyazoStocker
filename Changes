@@ -1,5 +1,8 @@
 Revision history for Perl extension Acme::Plack::App::GyazoStocker
 
+0.03    Sat Aug 17 10:11:32 JST 2013
+        - fix manifest
+
 0.02    Sat Aug 17 09:34:37 JST 2013
         - POD enhancement
         - added example PSGI file

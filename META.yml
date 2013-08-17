@@ -19,7 +19,7 @@ name: Acme-Plack-App-GyazoStocker
 provides:
   Acme::Plack::App::GyazoStocker:
     file: lib/Acme/Plack/App/GyazoStocker.pm
-    version: 0.02
+    version: 0.03
 requires:
   Carp: 0
   HTTP::Status: 0
@@ -34,4 +34,4 @@ resources:
   bugtracker: http://github.com/bayashi/Acme-Plack-App-GyazoStocker/issues
   license: http://dev.perl.org/licenses/
   repository: http://github.com/bayashi/Acme-Plack-App-GyazoStocker
-version: 0.02
+version: 0.03
