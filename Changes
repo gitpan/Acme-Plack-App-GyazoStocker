@@ -1,5 +1,8 @@
 Revision history for Perl extension Acme::Plack::App::GyazoStocker
 
+0.04    Sat Aug 31 07:49:00 JST 2013
+        - fixed typo
+
 0.03    Sat Aug 17 10:11:32 JST 2013
         - fix manifest
 

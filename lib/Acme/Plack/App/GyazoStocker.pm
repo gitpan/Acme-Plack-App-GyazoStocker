@@ -15,7 +15,7 @@ use Plack::Util::Accessor qw/
     gyazo
 /;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 my @ROUTE = (
     [ 'root',  qr!^/[a-f\d]{32}(?:\.png)?$!  ],
@@ -97,7 +97,7 @@ sub _fetch_image {
         return $res->content;
     }
     else {
-        carp $res->satus_line. ": $url";
+        carp $res->status_line. ": $url";
     }
 
     return;
